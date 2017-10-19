@@ -1,12 +1,8 @@
 
 #  Log Analysis Program
 
-The log analysis program is a a reporting tool that 
-prints out reports (in plain text) based on the data in the database. 
-This reporting tool is a Python program using the psycopg2 module 
-to connect to the database `news` that contains newspaper articles, 
-as well as the web server log for the site. The program answers 
-the following questions: 1. What are the most popular three articles of all time? 
+The program answers the following questions: 
+1. What are the most popular three articles of all time? 
 2. Who are the most popular article authors of all time? and 
 3.  On which days did more than 1% of requests lead to errors?
 You can launch the program to get the result of the analysis proceeding as follow:
